@@ -25,7 +25,7 @@
 #if PERMISSION_LOCATION
 import CoreLocation
 
-let LocationManager = CLLocationManager()
+var LocationManager = CLLocationManager()
 
 private var requestedLocation = false
 private var triggerCallbacks  = false
